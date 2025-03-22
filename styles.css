@@ -1,0 +1,67 @@
+
+/*Jasleen Kaur 9022505*/
+/* index.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+}
+
+h1 {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.biography, .quote, .video, .resources, .contact {
+    border: 2px solid blue;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.biography h2, .quote h2, .video h2, .resources h2, .contact h2 {
+    color: blue;
+}
+
+.quote {
+    background: bisque;
+}
+
+.contact input, .contact select, .contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.contact button {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact button:hover {
+    background: lightblue;
+}
